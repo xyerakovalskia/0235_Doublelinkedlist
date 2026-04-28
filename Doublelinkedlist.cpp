@@ -115,3 +115,5 @@ public:
         }
         else
         {
+            // Step 3: Link previous node to next of current
+            current->prev->next = current->next;
