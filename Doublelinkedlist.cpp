@@ -20,4 +20,4 @@ public:
     DoubleLinkedList()
     {
         START = NULL;
-    
+    }
